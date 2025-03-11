@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potfolio website elly pro</title>
+    <script src="https://kit.fontawesome.com/c0f6dab0d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfoliowebhome.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+           <img src="ellyprologo.jpg" alt="logo" style="width: 120px;">
+            <ul  id="sidemenu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-circle-xmark"  onclick="closemenu()"></i>
+            </ul>
+           
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+           </nav>
+           <div class="header-text">
+            <p>IT SPECIALIST</p>
+            <h1>hi i,m<span>  ELLY</span>  <br> from dar es salaam</h1>
+           </div>
+        </div>
+    </div>
+    <!--------------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="ellypro.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>an ambitious Information Technology student with a strong passion for  IT SPECIALIST, web design, and software development. I am currently pursuing my diploma in IT, aiming to be the best in my class and achieve a high GPA.
+                        With a keen interest in cybersecurity architecture, I am continuously expanding my knowledge in network security, ethical hacking, and system protection.Additionally, I enjoy web design and branding, helping individuals and businesses create compelling digital experiences.
+                        Beyond tech, I am an active member of Chama Cha Mapinduzi (CCM) and aspire to grow within leadership roles, using technology and innovation to drive positive change. My goal is to develop secure, efficient, and user-friendly solutions while building a strong professional brand.</p>
+                        <div class="tab-titles">
+                            <p class="tab-link active-tab" onclick="openTab('skills')"  >skills</p>
+                            <p class="tab-link" onclick="openTab('experiences')"  >experiences</p>
+                            <p class="tab-link" onclick="openTab('education')" >education</p>
+                        </div>
+                        <div class="tab-content" id="skills" style="display: none;" >
+                            <ul>
+                                <li><span>IU/UX </span><br> designing web/app interfaces </li>
+                                <li><span>web development </span> <br>web app development </li>
+                                <li><span>App development </span> <br>building android/ ios apps </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experiences" style="display: none;">
+                            <ul>
+                                <li><span>2023-2024 </span><br> web design  and database management at cbe  </li>
+                                <li><span>2023-2024 </span> <br>graphics design  </li>
+                                <li><span>2024-2025 </span> <br>computer maintenance and programmig in c development  </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2023-2026 </span><br> IT at cbe, dar es salaam</li>
+                                <li><span>2019-2022 </span> <br>secondary education at lake view school, bukoba</li>
+                                <li><span>2010-2018 </span> <br>primary education at rumuli, bukoba </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   <!-------------------------------------services-------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-tittle"> My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web design</h2>
+                <p> web solution and design for yur
+                     business and brand or company </p>
+                     <a href="#">learn more</a>
+            </div>
+
+            <div> 
+                <i class="fa-solid fa-people-arrows"></i>
+                <h2>graphics solutions</h2>
+                     <p> graphics solution and design for yur
+                          business and brand or company </p>
+                          <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                 <h2>computer troubleshooting </h2>
+                <p> troubleshooting the computer both 
+                    software and hardware  to work properlyy </p>
+                     <a href="#">learn more</a>
+       </div>
+
+        </div>
+    </div>
+   </div>
+   <!---------portfolio----------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">
+            my work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="web.png" alt="work">
+                <div class="layer">
+                    <h3>website develoment</h3>
+                    <p>website design and develoment 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="ellyprologo.jpg" alt="work">
+                <div class="layer">
+                    <h3>graphics </h3>
+                    <p>graphics design and solution and
+                        brand development  
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="computer tr.jpg" alt="work">
+                <div class="layer">
+                    <h3>computer troubleshooting</h3>
+                    <p>computer troubleshooting both software and hardware 
+                        solution 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">see more</a>
+    </div>
+
+   </div>
+   <!----------contact--->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">
+                    contact me
+                </h1>
+                <p><i class="fa-solid fa-paper-plane"></i> www.ELLYpro.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+255616490015</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i>  </a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i>   </a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i>  </a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i>   </a>
+                </div>
+                <a href="cv elly.docx" class="btn btn2">download cv</a>
+
+            </div>
+            <div class="contact-right">
+                <form action="portfolioweb.php" method="post">
+                    <input type="text" name="name" placeholder="your name" id="name" required>
+                    <input type="email" name="email" placeholder="your email" id="email" required>
+                    <textarea name="message" row="6" placeholder="your message" id="message" required></textarea>
+                    <button type="submit"class="btn btn2" id="button">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; ELLYpro. <i class="fa-solid fa-heart"></i> made with by ELLYpro </p>
+    </div>
+   </div>
+
+
+
+   <script>
+    function openTab(tabId) {
+        // Hide all tab contents
+        document.querySelectorAll(".tab-content").forEach(tab => {
+            tab.style.display = "none";
+        });
+
+        // Remove active class from all tabs
+        document.querySelectorAll(".tab-link").forEach(tab => {
+            tab.classList.remove("active-tab");
+        });
+
+        // Show the selected tab content
+        document.getElementById(tabId).style.display = "block";
+
+        // Add active class to clicked tab
+        event.currentTarget.classList.add("active-tab");
+    }
+
+    // Set the default tab (Show skills by default)
+    document.addEventListener("DOMContentLoaded", function() {
+        openTab('skills');
+    });
+</script>
+
+    <script>
+        var sidemenu = Document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll("nav ul li a").forEach(anchor => {
+                anchor.addEventListener("click", function (e) {
+                    e.preventDefault(); 
+                    
+                    const targetId = this.getAttribute("href").substring(1); 
+                    const targetSection = document.getElementById(targetId);
+    
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop - 50,
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+    
+    
+</body>
+</html>
